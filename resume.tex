@@ -1,0 +1,88 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\moderncvtheme[blue]{classic}
+
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.96]{geometry}
+
+\name{Michael}{Heath}
+\title{PAAS Cloud Architect}
+\email{mlheath@outlook.com}
+
+\begin{document}
+
+\makecvtitle
+\vspace{-3em}
+
+\section{Introduction}
+Experienced Cloud Architect with a strong background in designing and implementing automated enterprise platform solutions. Skilled in containerization, virtualization, and cloud technologies, with a focus on OpenShift and Enterprise Cloud environments. Proven ability to lead and collaborate on complex projects, integrate new solutions with existing tools, and automate processes for improved efficiency and scalability.
+
+\vspace{-0.5em}
+\section{Education}
+\cventry{Aug 2017}{Bachelor of Science in Computer Science}{Texas State University}{San Marcos, TX}{\textit{}}{Minor: Mathematics}
+
+\cventry{May 2013}{Associate of Science: General Engineering}{Austin Community College}{Austin, TX}{\textit{}}{}
+
+\vspace{-0.5em}
+\section{Professional Experience}
+\cventry{2023 -- 2024}{\textbf{Senior Cloud Architect}}{IBM}{CIO Hybrid Cloud}{}{
+    \begin{itemize}
+        \item Designed and implemented automated enterprise platform solutions for company-wide applications.
+        \item Automated containerized VM image builds using OpenShift Virtualization and Tekton.
+        \item Built custom operators to manage one of the largest OpenShift Virtualization instances in production.
+        \item Integrated new solutions with existing tools through custom code, collaboration, and automation.
+        \item Architected automation for logging, vulnerability management, ITSS, backups, and asset auditing.
+        \item Planned and implemented architecture for automated OpenShift deployment on IBM Power mainframes.
+    \end{itemize}
+}
+
+\cventry{2020 -- 2023}{\textbf{Site Reliability Engineer}}{IBM}{CIO Hybrid Cloud}{}{
+    \begin{itemize}
+        \item Deployed prototype for CIO's primary OpenShift-based application modernization solution.
+        \item Automated OpenShift deployments and services using modern techniques on legacy IBM Cloud stacks.
+        \item Deployed, managed, and automated OpenShift solutions for storage, backups, networking, and security.
+        \item Consulted on custom OpenShift and IBM Cloud infrastructure solutions for platform consumers.
+        \item Prototyped automated bare metal OpenShift deployments in CIO data centers.
+    \end{itemize}
+}
+
+\cventry{2014 -- 2020}{\textbf{Senior Systems Administrator}}{Gila LLC}{}{}{
+    \begin{itemize}
+        \item Managed VMware ESXi cluster, SAN arrays, and network fabrics adhering to industry standards.
+        \item Administered compute, storage, and networking in OVH, Rackspace, and Azure cloud environments.
+        \item Migrated file shares to Isilon NAS, relieving SAN and maintaining service continuity.
+        \item Oversaw DNS, load balancing, reverse proxies, security audits, pen testing, and compliance audits.
+        \item Deployed monitoring solutions (Snort, Graylog, Zabbix) and application stack (JBoss, Apache, MSSQL).
+        \item Designed network layouts, including VPN tunnels, DMZs, routing, and ACL management.
+        \item Built Kubernetes lab using Foreman and Ansible AWX for CI/CD pipeline testing.
+    \end{itemize}
+}
+
+\cventry{2013 -- 2014}{\textbf{IT Helpdesk Administrator}}{Gila LLC}{}{}{
+    \begin{itemize}
+        \item Implemented SCCM for system imaging, inventory, and update management.
+        \item Established procedures for employee onboarding, permission management, and offboarding.
+        \item Automated processes for new hires, transfers, and terminations.
+        \item Troubleshot applications, phones, and systems for 400+ local and remote employees.
+        \item Managed and remediated Active Directory, GPOs, DNS, and DHCP settings.
+    \end{itemize}
+}
+
+\cventry{2011 -- 2013}{\textbf{Operations Support Specialist}}{Gila LLC}{}{}{
+    \begin{itemize}
+        \item Developed automated processes for client query responses and document management.
+        \item Built systems for client query inventory and department efficiency reporting.
+        \item Deployed tools for managing and automating inbound document formatting.
+    \end{itemize}
+}
+
+\vspace{-0.5em}
+\section{Technical Skills}
+\cvitem{Infrastructure Automation}{\textit{Ansible, Terraform, Containers (Docker, Podman, CRI-O), OpenShift, Velero, Ceph, Packer, Helm, Kustomize, CoreOS}} % Use italics for emphasis
+\cvitemwithcomment{Programming Languages}{\textit{Golang, Python, C}}{}
+\cvitemwithcomment{Code Pipeline Automation}{\textit{ArgoCD, Tekton, Travis, Jenkins}}{}
+\cvitemwithcomment{Agile}{\textit{GitOps, Scrum, Kanban, Jira, ZenDesk}}{}
+\cvitemwithcomment{Network Management}{\textit{Juniper, HAProxy, NGINX, Palo Alto, PowerDNS, CoreDNS}}{}
+
+
+\end{document}
