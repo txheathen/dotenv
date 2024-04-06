@@ -1,0 +1,62 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=0.75in]{geometry} % Changed margin to 0.75in
+\usepackage[T1]{fontenc}
+\usepackage{times}
+
+% Personal Information
+\def\name{Michael Heath}
+\def\phone{512-419-8804}
+\def\email{mlheath@outlook.com}
+
+% Section Headings
+\newcommand{\heading}[1]{%
+    \vspace{2ex}%
+    \noindent\textbf{\large{#1}}\\%
+    \noindent\rule{\textwidth}{0.4pt}%
+    \vspace{1ex}%
+}
+
+\begin{document}
+
+\begin{center}
+    {\huge\textbf{\name}}\\
+    {\small\phone \\ \email}
+\end{center}
+
+\heading{Experience}
+\begin{itemize}
+    \item Senior Cloud Architect, IBM, Austin - TX, Jan 2023 -- Apr 2024
+    \begin{itemize}
+        \item Designed and implemented automated enterprise platform solutions for company-wide applications.
+        \item Automated containerized VM image builds using OpenShift Virtualization and Tekton.
+        \item Built custom operators to manage one of the largest OpenShift Virtualization instances in production.
+        \item Integrated new solutions with existing tools through custom code, collaboration, and automation.
+        \item Architected automation for logging, vulnerability management, ITSS, backups, and asset auditing.
+        \item Planned and implemented architecture for automated OpenShift deployment on IBM Power mainframes.
+    \end{itemize}
+\end{itemize}
+
+\begin{itemize}
+    \item Site Reliability Engineer, IBM, Austin - TX, Jan 2020 -- Dec 2023
+    \begin{itemize}
+        \item Deployed prototype for CIO's primary OpenShift-based application modernization solution.
+        \item Automated OpenShift deployments and services using modern techniques on legacy IBM Cloud stacks.
+        \item Deployed, managed, and automated OpenShift solutions for storage, backups, networking, and security.
+        \item Consulted on custom OpenShift and IBM Cloud infrastructure solutions for platform consumers.
+        \item Prototyped automated bare metal OpenShift deployments in CIO data centers.
+    \end{itemize}
+\end{itemize}
+
+\heading{Skills}
+\begin{itemize}
+    \item Skill 1
+    \item Skill 2
+    \item Skill 3
+\end{itemize}
+
+\heading{Education}
+\begin{itemize}
+    \item Degree, Major, University, Graduation Year
+\end{itemize}
+
+\end{document}
